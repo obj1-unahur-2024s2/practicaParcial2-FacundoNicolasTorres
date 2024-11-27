@@ -1,8 +1,8 @@
 import example.pepita
 
 describe "group of tests for pepita" {
-
-  test "pepita has initial energy" {
+  const leon = new Personaje(inteligencia = 50, fuerza = 65, rol =)
+  test "leon es guerrero" {
     assert.equals(100, pepita.energy())
   }
 

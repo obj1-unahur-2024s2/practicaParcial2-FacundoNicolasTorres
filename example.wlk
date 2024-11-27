@@ -1,9 +1,39 @@
-object pepita {
-  var energy = 100
+class Personaje{
+  var fuerza
+  var inteligencia
+  var rol
 
-  method energy() = energy
-
-  method fly(minutes) {
-    energy = energy - minutes * 3
+  method cambioDeRol(nuevoRol){
+    rol = nuevoRol
   }
+}
+
+class Guerrero{}
+
+class Cazador{
+  var mascota
+}
+
+class Brujo{}
+
+class Mascota{
+  var edad
+  var fuerza
+  var tieneGarras = false
+}
+
+class Localidad{
+  const habitantes = []
+}
+
+class Aldea inherits Localidad{
+
+}
+
+class Ciudad inherits Localidad{
+
+}
+
+class Ejercito{
+
 }
