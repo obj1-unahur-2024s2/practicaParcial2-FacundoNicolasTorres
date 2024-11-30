@@ -33,4 +33,5 @@ En caso de que el potencial ofensivo total del ejército invasor supere al del d
 
 Si esto no ocurre, la invasión no tuvo éxito y el ejército defensor permanece a cargo.
 Las ciudades poseen mejores defensas que las aldeas, con lo cual incrementan el potencial ofensivo del ejército defensor en 300.
+.
 
